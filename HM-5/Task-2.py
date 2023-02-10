@@ -17,4 +17,3 @@ if number_A < 0 or number_B < 0:
 
 result = summa(number_A, number_B)
 print(f'Сумма двух чисел A и B = {result}')
-
