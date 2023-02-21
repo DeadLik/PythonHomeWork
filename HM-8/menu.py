@@ -50,4 +50,6 @@ def menu():
                 elif option == '2':
                     break
                 else:
-                    break
+                    print()
+                    print('Вы ввели неверную команду, повторите попытку')
+                    continue
