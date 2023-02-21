@@ -38,7 +38,7 @@ def change_contact():
             print('Хотите его изменить?\n'
                   '1. Да\n'
                   '2. Нет')
-            option = input()
+            option = input('-> ')
             if option == '1':
                 last_name = input('Введите новую фамилию: ')
                 first_name = input('Введите новое имя: ')
@@ -74,7 +74,7 @@ def del_con():
             print('Удалить?\n'
                   '1. Да\n'
                   '2. Нет')
-            option = input()
+            option = input('-> ')
             if option == '1':
                 phone_book.pop(i)
                 break
