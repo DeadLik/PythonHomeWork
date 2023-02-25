@@ -4,6 +4,7 @@
 # сдавать ссылкой на ГХ, за вопросами ко мне в телеграм
 from menu import Menu
 
-start = Menu()
+start = Menu('phone_book.txt')
+# start = Menu('phone.txt')
 
 

@@ -2,14 +2,15 @@ from phoneBook import PhoneBook
 
 
 class Menu:
-    def __init__(self):
+    def __init__(self, path):
         print('Телефонный справочник')
         print('Введите команду:\n'
               '1. Открыть файл\n'
               '2. Выход')
+        self.path = path
         openCommand = input('-> ')
         if openCommand == '1':
-            document = PhoneBook('phone_book.txt')
+            document = PhoneBook(self.path)
             while True:
                 print()
                 print('Введите команду:\n'
@@ -23,7 +24,7 @@ class Menu:
                 command = input('-> ')
                 if command == '1':
                     print()
-                    document.save_file('phone_book.txt')
+                    document.save_file(self.path)
                 elif command == '2':
                     print()
                     document.show_file()
@@ -46,7 +47,7 @@ class Menu:
                           '2. Нет')
                     option = input('-> ')
                     if option == '1':
-                        document.save_file()
+                        document.save_file(self.path)
                         break
                     elif option == '2':
                         break
