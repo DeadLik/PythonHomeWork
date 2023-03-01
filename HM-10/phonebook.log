@@ -1,0 +1,87 @@
+2023-03-01 03:35:51,342 INFO:PhoneBook объект создан
+2023-03-01 03:35:54,981 ERROR:Неверные данные
+Traceback (most recent call last):
+  File "\view.py", line 17, in menu
+    if 0 < int(choice) < 9:
+ValueError: invalid literal for int() with base 10: 'sdfsdf'
+2023-03-01 03:35:58,958 INFO:Введено число 1
+2023-03-01 03:36:00,580 INFO:Введено число 8
+2023-03-01 03:36:00,581 INFO:Корректное завершение программы
+2023-03-01 03:37:05,929 INFO:PhoneBook объект создан
+2023-03-01 03:37:07,784 ERROR:Некорректное завершение программы
+Traceback (most recent call last):
+  File "\main.py", line 5, in <module>
+    controller.start()
+  File "\controller.py", line 9, in start
+    choice = view.menu()
+  File "\view.py", line 15, in menu
+    choice = input('Выберите пункт меню: ')
+  File "Python310\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+2023-03-01 03:59:06,327 INFO:PhoneBook объект создан
+2023-03-01 03:59:10,782 INFO:Введено число 8
+2023-03-01 03:59:35,586 INFO:PhoneBook объект создан
+2023-03-01 03:59:38,526 INFO:Введено число 8
+2023-03-01 03:59:41,405 INFO:Корректное завершение программы
+2023-03-01 04:04:35,737 INFO:PhoneBook объект создан
+2023-03-01 04:04:40,295 INFO:Введено число 1
+2023-03-01 04:04:41,373 INFO:Введено число 7
+2023-03-01 04:06:04,421 INFO:PhoneBook объект создан
+2023-03-01 04:06:07,605 INFO:Введено число 7
+2023-03-01 04:06:07,605 WARNING:Телефонная книга не открыта или пуста
+2023-03-01 04:06:09,709 ERROR:Ошибка, данного контакта нет в списке
+Traceback (most recent call last):
+  File "\phone_book.py", line 54, in delete
+    contact = self.phone_book.pop(i)
+IndexError: pop from empty list
+2023-03-01 04:06:11,014 INFO:Введено число 7
+2023-03-01 04:06:11,014 WARNING:Телефонная книга не открыта или пуста
+2023-03-01 04:06:12,740 ERROR:Ошибка, данного контакта нет в списке
+Traceback (most recent call last):
+  File "\phone_book.py", line 54, in delete
+    contact = self.phone_book.pop(i)
+IndexError: pop from empty list
+2023-03-01 04:06:15,605 INFO:Введено число 7
+2023-03-01 04:06:15,605 WARNING:Телефонная книга не открыта или пуста
+2023-03-01 04:06:19,062 ERROR:Некорректное завершение программы
+Traceback (most recent call last):
+  File "\main.py", line 5, in <module>
+    controller.start()
+  File "\controller.py", line 29, in start
+    index = view.select_to_delete(pb.get())
+  File "\view.py", line 62, in select_to_delete
+    return int(input('Введите номер элемента, который хотите удалить: ')) - 1
+  File "Python310\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+2023-03-01 04:06:25,413 INFO:PhoneBook объект создан
+2023-03-01 04:06:28,564 INFO:Введено число 1
+2023-03-01 04:06:29,916 INFO:Введено число 3
+2023-03-01 04:06:33,358 INFO:Введено число 7
+2023-03-01 04:06:37,157 ERROR:Ошибка, данного контакта нет в списке
+Traceback (most recent call last):
+  File "\phone_book.py", line 54, in delete
+    contact = self.phone_book.pop(i)
+IndexError: pop index out of range
+2023-03-01 04:06:47,438 ERROR:Некорректное завершение программы
+Traceback (most recent call last):
+  File "\main.py", line 5, in <module>
+    controller.start()
+  File "\controller.py", line 9, in start
+    choice = view.menu()
+  File "\view.py", line 15, in menu
+    choice = input('Выберите пункт меню: ')
+  File "Python310\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+2023-03-01 04:08:28,848 INFO:PhoneBook объект создан
+2023-03-01 04:08:30,317 INFO:Введено число 1
+2023-03-01 04:08:31,669 INFO:Введено число 7
+2023-03-01 04:08:34,182 ERROR:Ошибка, данного контакта нет в списке
+Traceback (most recent call last):
+  File "\phone_book.py", line 54, in delete
+    contact = self.phone_book.pop(i)
+IndexError: pop index out of range
+2023-03-01 04:08:39,452 INFO:Введено число 8
+2023-03-01 04:08:39,453 INFO:Корректное завершение программы
